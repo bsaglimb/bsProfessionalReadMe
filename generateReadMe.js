@@ -2,7 +2,7 @@
 function renderContributingSection(confirmContributers, data) {
     if (!confirmContributers) {
       return `
-    Thank you for your interest in helping out; however, I will not be accepting contributions from third parties.
+    Thank you for your interest in contributing; however, I will not be accepting contributions from third parties.
       `;
     } else {
       return `
